@@ -1,0 +1,8 @@
+CountryName,CapitalName,CapitalLatitude,CapitalLongitude,CountryCode,ContinentName
+USA,I:5700 S:20570,38.907192,-77.036871,USA,North America
+United Kingdom,I:2780 S:60,52.087721,0.441066,UK,Europe
+Braizil,I:1530 S:5820,-14.235004,-51.92528,BZ,South America
+Mexico,I:1420 S:70,23.634501,-102.552784,Mx,south America
+Canada,I:1240 S:60,56.130366,-106.346771,CA,North America
+India,I:980 S:450,28.632244,77.220724,Ind,Asia
+Indonesia,I:660 S:130,-0.789275,113.921327,Indo,Europe

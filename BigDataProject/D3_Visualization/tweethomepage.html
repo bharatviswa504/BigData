@@ -1,0 +1,135 @@
+
+
+<html>
+<head>
+<title>main div</title>
+</head>
+<style>
+#d1
+{
+background-color:#4973AB;
+width:980px;
+margin-left: auto;
+margin-right: auto;
+border-right:#800000 5px solid;
+border-left:#800000 5px solid;
+height:auto;
+}
+#img1{
+width:150;
+height:150;
+border:4px solid silver;
+margin-left:5;
+margin-bottom:5;
+}
+
+ul li{
+list-style:none;
+}
+ li a:hover
+{
+color:silver;
+backgound-color:yellow;
+}
+#mar{
+background-color:#808000;
+font-size:15px;
+cursor:pointer;
+font-weight:bold;
+}
+.cls1{
+background-color:gray;
+width:100%;
+height:100%;
+}
+#t1
+{
+float:right;
+margin-top:80;
+margin-right:5;
+margin-bottom:5;
+}
+#mainmenu
+{
+float:left;
+}
+#mainmenu>li
+{
+float:left;
+background-color:yellow;
+padding-right:80;
+padding-left:80;
+}
+#d3
+{
+height:540px;
+width:980px;
+background-color:marron;
+display:block;
+}
+#d4
+{
+width:auto;
+height:auto;
+border-radius:3px;
+box-shadow:3px 5px 5px #FFA500;
+
+}
+#t2
+{
+width:100;
+height:100;
+overflow:scroll;
+}
+#d3 #p1{
+color:red
+}
+#d3 #p2{
+color:white
+}
+#d3 #p3{
+color:green
+}
+</style>
+<script type='text/javascript'>
+function fun1()
+{
+location="maindivv.html";
+}
+
+</script>
+<body class="cls1">
+
+<div id='d1'>
+<marquee id='mar' behavior="scroll" scrollamount="5" onmouseover="this.stop()" onmouseout="this.start()">
+<h2>Tweet Data Visualization</h2></marquee>
+
+<table id='t1' >
+
+</table>
+<div id='d3'>
+<p align="center">Ebola data Visualization.</p>
+<p id="p1">The ebola data is visualized in 3 ways<br>
+1)	Finding out the number of tweets about Ebola, produced a month in a given location<br>
+2)	Finding out top ten countries which produce more tweets on Ebola<br>
+3) Finding out top 10 people talking about Ebola from all the Ebola data set available<br></p>
+<p align="center">To visualize Ebola data.<a href="http://localhost:8888/Ebola_Month.html">Click here</a></p><br>
+<p align="center">EPL data Visualization.</p>
+<p id="p2">The EPL data is visualized in 3 ways<br>
+1)	Finding out the user with highest follower count ,among the users who tweeted for every team out of 8 teams data available<br>
+2)	Finding out popularity of player based on text tweeted by a user
+<p align="center">To visualize EPL data.<a href="http://localhost:8888/EplPlayers.html">Click here</a></p><br></p>
+<p align="center">Iphone & Samsung data Visualization.</p>
+<p id="p3">The Iphone & Samsung data is visualized in 3 ways<br>
+1)	Finding out the user with highest follower count ,among the users who tweeted for every team out of 8 teams data available<br>
+2)	Finding out popularity of player based on text tweeted by a user</p>
+<p align="center">To visualize Iphone & Samsung data.<a href="http://localhost:8888/Samsung_Iphone.html">Click here</a></p><br>
+
+
+</ul>
+</div>
+<div id='d4'>
+</div>
+
+</div>
+</body>
